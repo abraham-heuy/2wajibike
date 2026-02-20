@@ -1,6 +1,6 @@
 // pages/citizen/components/Topbar.tsx
 import { Link } from 'react-router-dom';
-import { FaHome, FaBell, FaUser, FaBars } from 'react-icons/fa';
+import {  FaBell,  FaBars } from 'react-icons/fa';
 
 interface TopbarProps {
   toggleSidebar: () => void;

@@ -14,9 +14,8 @@ const RatingHistoryModal = ({ isOpen, history, onClose }: RatingHistoryModalProp
 
   if (!isOpen) return null;
 
-  const dateRanges = ['all', 'today', 'this-week', 'this-month', 'this-year'];
 
-  const filteredHistory = history.filter(item => {
+  const filteredHistory = history.filter(() => {
     if (dateFilter === 'all') return true;
     // Add date filtering logic here
     return true;

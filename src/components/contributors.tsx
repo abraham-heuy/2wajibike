@@ -1,6 +1,6 @@
 // ContributorsSection.tsx
-import React, { useState, useEffect } from 'react';
-import { HiOutlineArrowRight, HiUserGroup, HiHeart, HiX } from 'react-icons/hi';
+import { useState, useEffect } from 'react';
+import { HiOutlineArrowRight, HiHeart, HiX } from 'react-icons/hi';
 import { FaGithub, FaTwitter, FaLinkedin, FaHandsHelping, FaCode, FaRegEnvelope } from 'react-icons/fa';
 import { GiKenya } from 'react-icons/gi';
 import { Link } from 'react-router-dom';

@@ -1,7 +1,7 @@
 // AboutContent.tsx
-import React, { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { GiKenya } from 'react-icons/gi';
-import { FaUsers, FaHeart, FaCode, FaQuoteLeft, FaNewspaper, FaChartLine, FaBullhorn } from 'react-icons/fa';
+import { FaUsers, FaHeart, FaCode, FaQuoteLeft, FaChartLine } from 'react-icons/fa';
 import { HiOutlineArrowRight, HiOutlineCalendar, HiOutlineUser } from 'react-icons/hi';
 import ArticleModal from './articles';
 

@@ -1,5 +1,4 @@
 // pages/citizen/components/PolicyModal.tsx
-import React from "react";
 import {
   FaTimes,
   FaThumbsUp,

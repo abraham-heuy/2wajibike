@@ -1,5 +1,5 @@
 // ArticleModal.tsx
-import React, { useEffect } from 'react';
+import  { useEffect } from 'react';
 import { HiX, HiOutlineCalendar, HiOutlineUser, HiOutlineClock } from 'react-icons/hi';
 import { FaTwitter, FaLinkedin, FaFacebook } from 'react-icons/fa';
 

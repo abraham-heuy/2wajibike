@@ -1,5 +1,4 @@
 // CTASection.tsx
-import React from "react";
 import { FaUsers, FaUserTie, FaUserGraduate } from "react-icons/fa";
 import { HiOutlineArrowRight } from "react-icons/hi";
 import { Link } from "react-router-dom";

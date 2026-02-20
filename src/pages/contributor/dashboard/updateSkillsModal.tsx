@@ -1,6 +1,6 @@
 // pages/contributor/components/UpdateSkillsModal.tsx
 import { useState } from 'react';
-import { FaEdit, FaPlus, FaExclamationCircle } from 'react-icons/fa';
+import { FaEdit, FaPlus } from 'react-icons/fa';
 
 interface UpdateSkillsModalProps {
   isOpen: boolean;
@@ -10,7 +10,7 @@ interface UpdateSkillsModalProps {
 }
 
 const UpdateSkillsModal = ({ isOpen, skills, onClose, onSave }: UpdateSkillsModalProps) => {
-  const [editableSkills, setEditableSkills] = useState(skills);
+  const [editableSkills] = useState(skills);
 
   if (!isOpen) return null;
 

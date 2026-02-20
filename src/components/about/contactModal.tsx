@@ -1,6 +1,6 @@
 // ContactModal.tsx
-import React, { useEffect } from 'react';
-import { HiX, HiOutlineMail, HiOutlinePhone, HiOutlineChat, HiOutlineCheckCircle } from 'react-icons/hi';
+import  { useEffect } from 'react';
+import { HiX, HiOutlineMail, HiOutlinePhone,  HiOutlineCheckCircle } from 'react-icons/hi';
 import { FaWhatsapp } from 'react-icons/fa';
 
 interface ContactModalProps {

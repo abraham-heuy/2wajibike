@@ -1,6 +1,5 @@
 // pages/contributor/components/ProfileMenu.tsx
 import { useEffect, useRef } from 'react';
-import { Link } from 'react-router-dom';
 import { FaUser, FaCog, FaSignOutAlt } from 'react-icons/fa';
 import type { ContributorData } from '../types/types';
 

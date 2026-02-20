@@ -1,7 +1,7 @@
 // pages/contributor/components/GitHubConnect.tsx
 import { useState } from 'react';
 import { FaGithub, FaArrowRight } from 'react-icons/fa';
-import { HiOutlineArrowRight } from 'react-icons/hi';
+
 
 interface GitHubConnectProps {
   onConnect: (githubData: any) => void;

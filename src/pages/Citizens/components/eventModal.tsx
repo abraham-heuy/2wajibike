@@ -1,5 +1,5 @@
 // pages/citizen/components/EventModal.tsx
-import { FaTimes, FaCalendarAlt, FaClock, FaMapMarkerAlt, FaUsers, FaUser, FaShare } from 'react-icons/fa';
+import { FaTimes, FaCalendarAlt,  FaMapMarkerAlt, FaUsers, FaUser, FaShare } from 'react-icons/fa';
 
 interface EventModalProps {
   event: any;

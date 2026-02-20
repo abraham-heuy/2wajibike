@@ -3,9 +3,8 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { 
   FaStar, FaCamera, FaQuestionCircle, FaFlag,
-  FaCheckCircle, FaClock, FaMapMarkerAlt, FaTimes,
-  FaCalendarAlt, FaUsers, FaBullhorn, FaNewspaper,
-  FaFilter
+  FaCheckCircle,FaMapMarkerAlt, FaTimes,
+ 
 } from 'react-icons/fa';
 import { HiOutlineArrowRight } from 'react-icons/hi';
 import EventsSection from '../components/eventSection';

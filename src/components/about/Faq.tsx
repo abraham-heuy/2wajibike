@@ -1,7 +1,7 @@
 // FAQs.tsx
 import { useState, useEffect } from 'react';
-import { HiChevronDown, HiMenu, HiX, HiOutlineMail, HiOutlinePhone, HiOutlineChat, HiOutlineCheckCircle } from 'react-icons/hi';
-import { FaQuestionCircle, FaUserFriends, FaShieldAlt, FaEnvelope, FaWhatsapp } from 'react-icons/fa';
+import { HiChevronDown, HiMenu, HiX} from 'react-icons/hi';
+import { FaQuestionCircle, FaUserFriends, FaShieldAlt} from 'react-icons/fa';
 import ContactModal from './contactModal';
 
 const FAQs = () => {
@@ -240,7 +240,7 @@ const FAQs = () => {
 
           {/* FAQ Accordion */}
           <div className="space-y-3">
-            {filteredFaqs.map((faq, idx) => {
+            {filteredFaqs.map((faq) => {
               const globalIndex = faq.id - 1;
               const isOpen = openIndex === globalIndex;
               

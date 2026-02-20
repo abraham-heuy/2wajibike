@@ -8,7 +8,7 @@ interface CitizenAdditionalProps {
   onChange: (data: any) => void;
 }
 
-const CitizenAdditional = ({ data, onChange }: CitizenAdditionalProps) => {
+const CitizenAdditional = ({ onChange }: CitizenAdditionalProps) => {
   const [formData, setFormData] = useState({
     idNumber: '',
     county: '',

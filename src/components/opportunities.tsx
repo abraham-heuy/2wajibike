@@ -1,5 +1,5 @@
 // OpportunitiesSection.tsx
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { HiOutlineArrowRight, HiChevronDown } from 'react-icons/hi';
 import { FaUsers, FaUserTie, FaUserGraduate, FaCheckCircle } from 'react-icons/fa';
 import { Link } from 'react-router-dom';

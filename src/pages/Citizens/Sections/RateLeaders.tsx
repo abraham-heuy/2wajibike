@@ -1,11 +1,11 @@
 // pages/citizen/pages/RateLeaders.tsx
 import { useState } from 'react';
 import { 
-  FaStar, FaThumbsUp, FaFilter, FaSearch, FaCalendarAlt,
-  FaMapMarkerAlt, FaUser, FaFileAlt, FaCheckCircle,
-  FaTimes, FaEye, FaHistory, FaSortAmountDown, FaLocationArrow
+  FaStar, FaThumbsUp, FaFilter, FaSearch, 
+  FaMapMarkerAlt, FaFileAlt,
+ FaEye, FaHistory,  FaLocationArrow
 } from 'react-icons/fa';
-import { HiOutlineArrowRight } from 'react-icons/hi';
+
 import PolicyModal from '../components/policyModal';
 import RatingModal from '../components/RatingModal';
 import RatingHistoryModal from '../components/RatingHistoryModal';
@@ -166,8 +166,6 @@ const RateLeaders = () => {
     },
   ];
 
-  const categories = ['all', 'mp', 'mca', 'woman-rep', 'senator', 'governor'];
-  const dateRanges = ['all', 'today', 'this-week', 'this-month', 'this-year'];
 
   const filteredLeaders = leaders.filter(leader => 
     (categoryFilter === 'all' || leader.position.toLowerCase().includes(categoryFilter)) &&

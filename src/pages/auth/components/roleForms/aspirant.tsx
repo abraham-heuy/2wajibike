@@ -7,7 +7,7 @@ interface AspirantAdditionalProps {
   onChange: (data: any) => void;
 }
 
-const AspirantAdditional = ({ data, onChange }: AspirantAdditionalProps) => {
+const AspirantAdditional = ({ onChange }: AspirantAdditionalProps) => {
   const [formData, setFormData] = useState({
     idNumber: '',
     aspiringPosition: '',

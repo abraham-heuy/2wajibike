@@ -8,7 +8,7 @@ interface LeaderAdditionalProps {
   onChange: (data: any) => void;
 }
 
-const LeaderAdditional = ({ data, onChange }: LeaderAdditionalProps) => {
+const LeaderAdditional = ({ onChange }: LeaderAdditionalProps) => {
   const [formData, setFormData] = useState({
     idNumber: '',
     position: '',

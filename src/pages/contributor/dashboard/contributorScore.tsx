@@ -16,13 +16,6 @@ interface ContributorScoreProps {
 }
 
 const ContributorScore = ({ score, breakdown, skillsCount, experienceCount, educationCount }: ContributorScoreProps) => {
-  const getScoreColor = (score: number) => {
-    if (score >= 4.5) return 'text-green-600';
-    if (score >= 3.5) return 'text-blue-600';
-    if (score >= 2.5) return 'text-yellow-600';
-    if (score >= 1.5) return 'text-orange-600';
-    return 'text-red-600';
-  };
 
   const getScoreLabel = (score: number) => {
     if (score >= 4.5) return 'Expert Contributor';
