@@ -1,6 +1,6 @@
 // pages/auth/components/VerificationStep.tsx
 import { useState } from 'react';
-import { FaEnvelope, FaSms, FaArrowLeft, FaCheckCircle } from 'react-icons/fa';
+import { FaArrowLeft, FaCheckCircle } from 'react-icons/fa';
 import { HiOutlineMail, HiOutlineDeviceMobile } from 'react-icons/hi';
 
 interface VerificationStepProps {
