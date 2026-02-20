@@ -109,13 +109,13 @@ const ContributorsSection = () => {
               <p className="text-base sm:text-lg leading-relaxed">
                 Tuwajibike isn't funded by politicians or corporations. It's built by 
                 <span className="font-semibold text-green-700"> ordinary Kenyans</span> who believe 
-                in a better future—developers coding at night after work, designers sketching 
+                in a better future, developers coding at night after work, designers sketching 
                 on matatus, writers crafting messages in their free time.
               </p>
               
               <div className="bg-amber-50 p-5 rounded-xl border-l-4 border-amber-500">
                 <p className="text-base sm:text-lg leading-relaxed text-amber-800">
-                  <span className="font-bold">💚 This is a labor of love — for now.</span> We're building at 
+                  <span className="font-bold">Note:</span> We're building at 
                   the earliest stages, where passion outweighs paychecks and every line of code is written 
                   because we believe in the mission. As we grow, we'll pursue investment to scale our impact, 
                   build a sustainable team, and take Tuwajibike from volunteer-powered movement to 
@@ -124,7 +124,7 @@ const ContributorsSection = () => {
               </div>
               
               <p className="text-base sm:text-lg leading-relaxed">
-                We need more hands on deck—developers, designers, researchers, writers, 
+                We need more hands on deck: developers, designers, researchers, writers, 
                 translators, community organizers. Whether you can commit an hour a week 
                 or every evening, your contribution moves Kenya forward.
               </p>
@@ -207,7 +207,7 @@ const ContributorsSection = () => {
                   <span className="text-xs bg-green-100 text-green-700 px-3 py-1.5 rounded-full font-medium">Swahili Translation</span>
                   <span className="text-xs bg-green-100 text-green-700 px-3 py-1.5 rounded-full font-medium">Mobile Dev</span>
                   <span className="text-xs bg-amber-100 text-amber-700 px-3 py-1.5 rounded-full font-medium">
-                    + your skills here
+                    + more skills
                   </span>
                 </div>
               </div>
