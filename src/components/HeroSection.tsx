@@ -2,6 +2,8 @@
 import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { HiX } from 'react-icons/hi';
+import logo from "../assets/logo.png"
+import heroBg from "../assets/hero-bg.jpg"
 
 const HeroSection = () => {
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -54,7 +56,7 @@ const HeroSection = () => {
       <div 
         className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: "url('/src/assets/hero-bg.jpg')",
+          backgroundImage: `url(${heroBg})`,
         }}
       >
         {/* Dark overlay for text readability */}
@@ -78,7 +80,7 @@ const HeroSection = () => {
               }`}
           >
             <img 
-              src="/src/assets/logo.png" 
+              src={logo}
               alt="Tuwajibike Logo"
               className="w-full h-full object-cover"
             />
