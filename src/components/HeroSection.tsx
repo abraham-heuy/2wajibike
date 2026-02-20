@@ -148,7 +148,7 @@ const HeroSection = () => {
                             rounded-full overflow-hidden border-4 border-green-400/50
                             shadow-2xl mb-4">
                 <img 
-                  src="/src/assets/logo.png" 
+                  src={logo}
                   alt="Tuwajibike Logo"
                   className="w-full h-full object-cover"
                 />
